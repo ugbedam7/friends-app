@@ -1,4 +1,4 @@
-from backend.app import app, db
+from app import app, db
 from flask import request, jsonify
 from models import Friend
 from utils.validation import validate_friend_data

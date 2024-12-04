@@ -25,7 +25,7 @@ def index(filename):
 
 
 # Api routes
-import backend.routes
+import routes
 
 with app.app_context():
     db.create_all()
